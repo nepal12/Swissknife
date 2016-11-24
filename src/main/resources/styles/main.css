@@ -1,0 +1,68 @@
+@font-face{
+    font-family : 'Ubuntu';
+    src : url('../fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family : 'OpenSans';
+    src : url('../fonts/OpenSans-Regular.ttf');
+}
+
+.root{
+   /* -fx-background-color: #242729;*/
+   -fx-border-color: transparent;
+
+}
+
+.menu-bar{
+    -fx-background-color: #3b3e40;
+    -fx-font-family : "Ubuntu";
+    -fx-font-size : 12 px;
+}
+
+.menu-bar .label{
+    -fx-text-fill: #bababa;
+}
+
+.menu:hover{
+    -fx-background-color : #3b3e40;
+}
+
+.menu-button:showing{
+    -fx-background-color : #4b6dad;
+    -fx-text-fill: #bababa;
+}
+
+.menu-item {
+   -fx-padding: 4 4 4 4;
+}
+
+.menu-item:focused {
+    -fx-background-color : #4b6dad;
+}
+
+.context-menu {
+    -fx-background-color: #3b3e40;
+    -fx-text-fill: #bababa;
+    -fx-border-color: #4f4f4f;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 0 2 2, 0 0 2 2, 0 0 2 2;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0em 0.333333em 0em; /* 4 1 8 1 */
+}
+
+.separator{
+     -fx-padding: 4 0 4 0;
+}
+
+.tool-bar:horizontal {
+    -fx-background-color: #3b3e40;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-width: 1px;
+    -fx-border-color: #262626;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.pane{
+    -fx-background-color: #3b3e40;
+}
